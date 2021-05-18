@@ -10,10 +10,10 @@ operator:
   imagePullSecrets: []
   replicaCount: 1
   securityContext:
-    runAsUser: 1000
-    runAsGroup: 1000
+    runAsUser: 1000640000
+    runAsGroup: 1000640000
     runAsNonRoot: true
-    fsGroup: 1000
+    fsGroup: 1000640000
   resources:
     requests:
       cpu: 200m
